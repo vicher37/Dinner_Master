@@ -1,0 +1,22 @@
+Sub dinnerimprovisor()
+Dim i As Integer, j As Integer, m As Integer, n As Integer, o As Integer, p As Integer, r As Integer, q As Integer
+
+i = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+j = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+m = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+n = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+o = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+p = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+r = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+q = Int((ActiveSheet.UsedRange.Rows.Count - 4 + 1) * Rnd + 4)
+
+msgbox "Dinner is ... " & Cells(r, 6).Value & " " & Cells(i, 4).Value & " " & Cells(j, 2).Value & ", " & Cells(q, 6).Value & " " & Cells(o, 4) & " " & Cells(m, 1).Value & ", " & Cells(n, 3).Value & ", and " & Cells(p, 5).Value & ". Let's go grocery shopping and cook it!"
+
+End Sub
